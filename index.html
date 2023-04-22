@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Конвертер валют</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <span class="date"></span>
+            <div class="five-valute">
+                <ul></ul>
+            </div>
+            <div class="grid-block">
+                <div class="block">
+                    <select id="little-rub">
+                        <option disabled selected>Валюты, дешевле рубля</option>
+
+                    </select>
+                    <span>
+                        <label for="rub">Введите кол-во рублей:</label>
+                        <input type="text" id="rub" class="input-for-enter">
+                    </span>
+                    <button id="entered1">Рассчитать</button>
+                    <span>
+                        <label for="rezult">Рез-тат</label>
+                        <input type="text" id="rezult" disabled>
+                    </span>
+                </div>
+
+                <div class="block">
+                    <select id="big-rub">
+                        <option disabled selected>Валюты, дороже рубля</option>
+                    </select>
+                    <span>
+                        <label for="else-valute">Введите кол-во выбранной валюты:</label>
+                        <input type="text" id="else-valute" class="input-for-enter">
+                    </span>
+                    <button id="entered2">Рассчитать</button>
+                    <span>
+                        <label for="rezult1">Рез-тат (в рублях)</label>
+                        <input type="text" id="rezult1" disabled class="rezult1">
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
